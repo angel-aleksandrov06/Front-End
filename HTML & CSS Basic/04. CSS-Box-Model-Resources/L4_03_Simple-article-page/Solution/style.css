@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 2rem 3rem;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}

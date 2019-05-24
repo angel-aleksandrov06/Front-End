@@ -1,0 +1,36 @@
+@import url('/font-awesome-5.8.2/css/font-awesome.min.css');
+
+html {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 3rem;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    background: rgb(251, 251, 251);
+    color: rgb(51, 51, 51);
+    padding: 0.2rem 0.5rem;
+}
+
+.button.fill {
+    background: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.button.hover {
+    color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+}
+
+.fill.hover {
+    color: rgb(251, 251, 251);
+    background: rgb(0, 102, 0);
+}

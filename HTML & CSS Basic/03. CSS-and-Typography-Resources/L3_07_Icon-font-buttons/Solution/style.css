@@ -1,0 +1,19 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+body {
+    padding: 4rem 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.first>a {
+    background: green;
+    padding: 0.4rem 0.7rem;
+}
+
+.second>a {
+    background: orange;
+    padding: 0.4rem 0.7rem;
+}

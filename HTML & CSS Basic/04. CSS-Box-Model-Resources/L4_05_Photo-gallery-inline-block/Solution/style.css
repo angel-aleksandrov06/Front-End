@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+li {
+    list-style: none;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+img {
+    width: 100%;
+}
