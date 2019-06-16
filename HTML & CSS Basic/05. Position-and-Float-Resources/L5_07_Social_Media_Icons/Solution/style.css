@@ -1,0 +1,17 @@
+ul {
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}

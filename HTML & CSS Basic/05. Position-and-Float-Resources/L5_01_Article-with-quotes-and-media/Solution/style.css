@@ -1,0 +1,78 @@
+@import url(Reset.css);
+@import url(typography.css);
+
+/* HTML */
+
+body {
+    max-width: 65vw;
+    margin: 3rem auto;
+}
+
+/* Header */
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 1rem 0 ;
+}
+
+/* Main */
+
+section {
+    margin: 2.5rem 0;
+}
+
+section p {
+    margin: 1rem 0;
+}
+
+/* section 1 */
+
+.picture-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.picture-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+img {
+    border: 5px solid #FFF;
+    outline: 2px solid #000;
+}
+
+/* section 2 */
+
+.twice-paragraph {
+    display: flex;
+    width: 100;
+}
+
+main section article div,
+.italic-paragraph {
+    width: 48%;
+    display: block;
+}
+
+.italic-paragraph {
+    padding: 2rem;
+    margin-left: 2rem;
+    border-left: 5px solid #CCC;
+    font-style: italic;
+    color: #CCC;
+    float: right;
+}
+
+.italic-paragraph .name-writer {
+    color: #000;
+    float: right;
+    font-style: normal;
+}

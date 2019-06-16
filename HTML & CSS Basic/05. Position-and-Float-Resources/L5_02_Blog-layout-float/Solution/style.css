@@ -1,0 +1,110 @@
+@import url(Reset.css);
+@import url(typography.css);
+
+/* HTML */
+
+body {
+    max-width: 65vw;
+    margin: 3rem auto;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Header */
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 1rem 0 ;
+}
+
+/* Main */
+
+main {
+    width: 80%;
+    display: inline-block;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+/* section 1 */
+
+.picture-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.picture-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+img {
+    padding: 0.5rem;
+    border: 2px solid #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+/* section 2 */
+
+.twice-paragraph {
+    display: block;
+    width: 100;
+}
+
+.italic-paragraph {
+    width: 50%;
+    display: block;
+    padding: 2rem;
+    margin-left: 2rem;
+    border-left: 5px solid #CCC;
+    font-style: italic;
+    color: #CCC;
+    float: right;
+    font-family: Georgia, serif;
+}
+
+article:after {
+    display: block;
+    content: '';
+    clear: right;
+}
+
+.italic-paragraph .name-writer {
+    color: #000;
+    float: right;
+    font-style: normal;
+}
+
+/* aside */
+
+.aside-bar {
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aside-bar section nav{
+    margin-left: 2rem;
+}
+
+.aside-bar section nav li {
+    margin-left: 2rem;
+}
+
+.aside-bar section nav ul li a {
+    text-decoration: none;
+    color: green;
+}
