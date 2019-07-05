@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+html{
+    box-sizing: border-box;
+    
+}
+*,*:before,*:after{
+    box-sizing: inherit
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F3F3F3;
+    font-family: 'Lato' sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+section {
+    display: block;
+    max-width: 25%;
+    margin: 0 1rem;
+    background: #FFF;
+    text-align: center;
+}
+
+section article img{
+    width: 100%;
+}
+
+section h1{
+    display: block;
+    margin: 1.5rem auto;
+    text-shadow: 1px 1px 1px #999;
+    
+}
+
+section p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    display: block;
+    color:#888;
+    text-shadow: 1px 1px 1px #999;
+    margin: 0 auto;
+    padding:  0 2rem;
+}
+section p:after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    margin: 0.8rem auto;
+    background: orange;
+}
+
+/* section hr{
+    margin: 1rem auto;
+    max-width: 80%;
+    color: orange;
+} */
+
+section span{
+    display: block;
+    margin: 0 auto 1rem;
+    color: orangered;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #999;
+}
