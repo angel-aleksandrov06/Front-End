@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+@import url('reset.css');
+
+html {
+    font: 18px/1.2 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 60rem;
+    margin: 5rem auto;
+    background: linear-gradient(rgba(18, 44, 86,0.8), rgba(17, 43, 85,0.9)), url('./image.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 0 7rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.exit {
+    flex: 1 1 100%;
+    text-align: right;
+    margin: 0.5rem 0.5rem 0 0 ;
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+
+.exit i {
+    color: #FFF;
+    font-size: 1.5em;
+
+}
+
+.wrapper .item {
+    flex: 0 0 20%;
+    text-align: center;
+    color: #fff;
+    margin: 5rem 0;
+}
+
+.image {
+    margin: 1rem 0;
+}
+
+i {
+    font-size: 40px;
+    color: #EC8421;
+}
+
+.counts {
+    font-weight: 800;
+    font-size: 1.2em;
+    margin: 1rem 0 0.3rem 0;
+}
