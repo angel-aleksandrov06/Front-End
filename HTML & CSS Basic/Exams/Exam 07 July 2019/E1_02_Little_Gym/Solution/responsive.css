@@ -59,7 +59,7 @@
         }
 
     .site-navigation ul{
-        visibility: hidden;
+        display: none;
     }
 
     .entry-header {
@@ -90,7 +90,7 @@
     }
 
     .site-information-image {
-        visibility: hidden;
+        display: none;
     }
 
     .site-form {
