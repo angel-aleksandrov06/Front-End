@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: var(--font-family-content, sans-serif);
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-headings, serif);
+}
+
+p {
+    margin:1rem 0;
+}
+
+.container {
+    max-width: 50rem;
+    margin: 2rem auto;
+}
+
+.container header {
+    text-align: center;
+}

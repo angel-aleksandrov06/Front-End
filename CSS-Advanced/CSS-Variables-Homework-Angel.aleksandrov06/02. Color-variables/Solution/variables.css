@@ -1,0 +1,10 @@
+:root {
+    --color-font: #275468;
+    --color-border: #FFC701;
+
+    --color-button-bgrd: #FFC701;
+    --color-font-button: #ffffff;
+
+    --hover-color-button-bgrd:#275468;
+    --hover-color-button-font:#FFC701;
+}
