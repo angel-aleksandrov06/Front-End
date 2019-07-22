@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.gradient {
+    min-width: 90vw;
+    min-height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradient::before,
+.gradient::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, #c98532, #d69547, #e3a65b, #efb670, #fcc785);
+}
+
+.gradient::after {
+    
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 1s ease-in;
+    background-image: linear-gradient(to bottom, #87939b, #9ea9af, #b5bfc3, #ced5d8, #e7eced);
+}
+
+.gradient:hover::after {
+    opacity: 0;
+}
